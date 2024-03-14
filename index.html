@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Enter Your PIN</h2>
+    <div class="pin-status">
+        <div class="pin-indicator"></div>
+        <div class="pin-indicator"></div>
+        <div class="pin-indicator"></div>
+        <div class="pin-indicator"></div>
+    </div>
+    <div class="pin-pad">
+        <button class="pin-btn white" onclick="enterPin('red')"><img class="img-fluid" src="assets/cloud.png" alt="umbrella"></button>
+        <button class="pin-btn white" onclick="enterPin('blue')"><img class="img-fluid" src="assets/heart.png" alt="heart"></button>
+        <button class="pin-btn white" onclick="enterPin('green')"><img class="img-fluid" src="assets/home.png" alt="home"></button>
+        <button class="pin-btn white" onclick="enterPin('yellow')"><img class="img-fluid" src="assets/moon.png" alt="moon"></button>
+        <button class="pin-btn white" onclick="enterPin('purple')"><img class="img-fluid" src="assets/musical-note.png" alt="musical-note"></button>
+        <button class="pin-btn white" onclick="enterPin('lightgreen')"><img class="img-fluid" src="assets/plane.png" alt="plane"></button>
+        <button class="pin-btn white" onclick="enterPin('orange')"><img class="img-fluid" src="assets/star.png" alt="star"></button>
+        <button class="pin-btn white" onclick="enterPin('pink')"><img class="img-fluid" src="assets/thunder.png" alt="thunder"></button>
+        <button class="pin-btn white" onclick="enterPin('greengreen')"><img class="img-fluid" src="assets/umbrella.png" alt="umbrella"></button>
+    </div>
+    <p id="error-msg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

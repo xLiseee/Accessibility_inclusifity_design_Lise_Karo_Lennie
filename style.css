@@ -1,0 +1,134 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.white{
+    background-color: #fafaf2;
+}
+.img-fluid {
+    width: 20px;
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: darkcyan;
+    }
+
+    .login-container {
+        text-align: center;
+        background-color: #FFFFFF; /* Achtergrondkleur gewijzigd */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Schaduw toegevoegd voor diepte */
+    }
+
+    .pin-status {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; /* Extra ruimte toegevoegd aan de onderkant */
+    }
+
+    .pin-indicator {
+        width: 20px;
+        height: 20px;
+        background-color: transparent;
+        border: 2px solid #333;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    .pin-indicator.active {
+        background-color: #333;
+    }
+
+    .pin-pad {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+    }
+
+    .pin-btn {
+        width: 60px;
+        height: 60px;
+        border: none;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease; /* Transitieregeling toegevoegd */
+    }
+
+    .pin-btn:hover {
+        background-color: #f2f2f2; /* Lichtgrijze kleur bij zweven */
+    }
+
+    .pin-btn:active {
+        background-color: #cccccc; /* Donkergrijze kleur bij klikken */
+        transition: background-color 0.1s ease; /* Snellere transitieregeling toegevoegd */
+    }
+    #error-msg {
+        color: darkred;
+    }
+
+    .success-container {
+        text-align: center;
+        background-color: #FFFFFF; /* Achtergrondkleur gewijzigd */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Schaduw toegevoegd voor diepte */
+    }
+
+    .gelukt {
+        color: darkgreen;
+    }
+
+    .gelukt2 {
+        color: darkgreen;
+    }
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: #ffc0cb;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: #800080FF;
+}
+.lightgreen {
+    background-color: #40E0D0FF;
+}
+.orange {
+    background-color: #FFA500FF;
+}
+.pink {
+    background-color: #FF00FFFF;
+}
+.greengreen {
+    background-color: lightgreen;
+}
+
